@@ -1,0 +1,6 @@
+Layout/AlignHash:
+  EnforcedColonStyle: table
+Metrics/LineLength:
+  Enabled: false
+AllCops:
+  TargetRubyVersion: 2.6
