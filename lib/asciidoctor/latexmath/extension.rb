@@ -132,7 +132,7 @@ class Asciidoctor::Latexmath::Treeprocessor < Asciidoctor::Extensions::Treeproce
       exp  = match[2]
       path = render_expression(http, exp, output_dir)
 
-      "image:#{path}[role=inline-latexmath]"
+      "image:#{path}[role=inline-latexmath, height=1.25em]"
     end
   end
 end
